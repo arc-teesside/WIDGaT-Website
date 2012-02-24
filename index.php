@@ -1,3 +1,16 @@
+<?php
+	if(isset($_GET["p"])) {
+		if(is_file($_GET["p"].".php"))	
+			$page = $_GET["p"];
+		else {
+			$page = "home";
+		}
+	}
+	else {
+		$page = "home";
+	}
+?>
+
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
@@ -34,61 +47,29 @@
 		chromium.org/developers/how-tos/chrome-frame-getting-started -->
 		<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 		<div id="container">
-			<header>
-				<a href="https://github.com/alohaeditor/Aloha-Editor/" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub"></a>
-				<a href="index.php"><img src="img/WIDGaT_logo.png" alt="WIDGaT" style="width:200px" /></a>
+			<div id="header">
+				<a href="https://github.com/arc-teesside/WIDGaT/" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub"></a>
+				<a href="index.php"><img src="img/WIDGaT_logo.png" alt="WIDGaT" style="width:250px" /></a>
                 <ul class="nav">
                 	<li><a href="About">About</a></li>
-                    <li><a href="Use it">Use it</a></li>
-                    <li><a href="Guides">Guides</a></li>
-                    <li><a href="Blog">Blog</a></li>
+                    <li><a href="http://arc.tees.ac.uk/widgat-code/">Use it</a></li>
+                    <li><a href="index.php?p=guides">Guides</a></li>
+                    <li><a href="http://arc.tees.ac.uk/WIDGaT/">Blog</a></li>
                     <li><a href="Wiki">Wiki</a></li>
                 </ul>
 				<div class="clearfix"></div>
-			</header>
+			</div>
 			<div id="main" role="main">
-				<div id="intro">
-						<h1>WIDGaT &ndash; Widget Design Authoring Toolkit</h1>						
-						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b id="ext-gen1191">W</b>idget <b>D</b>esign <b>A</b>uthoring <b>T</b>oolkit <b>(WIDGaT)</b> is a JISC-funded Learning and Teaching Innovation project led by the Accessibility Research Centre at Teesside University.The WIDGaT toolkit supports the design, development and sharing of widgets, by enabling teachers and students to easily create bespoke widgets.
-						</p>
-				</div>
-				<div id="twitterWidget">
-					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-					<script>
-						new TWTR.Widget({
-							version: 2,
-							type: 'profile',
-							rpp: 5,
-							interval: 30000,
-							width: 220,
-							height: 200,
-							theme: {
-								shell: {
-									background: '#52729c',
-									color: '#ffffff'
-								},
-								tweets: {
-									background: '#ffffff',
-									color: '#000000',
-									links: '#52729c'
-								}
-							},
-							features: {
-								scrollbar: true,
-								loop: true,
-								live: true,
-								behavior: 'all'
-							}
-						}).render().setUser('ARC_Teesside').start();
-					</script>
-				</div>
-				
+				<?php include($page.'.php'); ?>
 				<div class="clearfix"></div>
 			</div>
-			<footer>
-
-			</footer>
+			<div id="footer">Contact: Dr. Elaine Pearson - Email: <a href="mailto:E.Pearson@tees.ac.uk">E.Pearson@tees.ac.uk</a> - Tel.: +44 (0) 1642 342656&nbsp;<a href="index.php?p=admin/home">Admin</a><br/>
+				Accessibility Research Centre, School of Computing, Teesside University, Middlesbrough, Tees Valley, TS1 3BA, UK<br />
+				<a href="" title="" target="_blank"><img src="img/button-rss.png" alt="Image" /></a>&nbsp;
+				<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="img/cc-by-nc-sa.png" alt="Image" /></a>&nbsp;
+				<a href="http://validator.w3.org/check/referer" title="http://validator.w3.org/check/referer" target="_blank"><img src="img/button-xhtml.png" alt="Image" /></a>&nbsp;
+				<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank"><img src="img/button-css.png" alt="Image" /></a> 
+			</div>
 		</div>
 		<!-- JavaScript at the bottom for fast page loading -->
 

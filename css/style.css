@@ -32,7 +32,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+html, button, input, select, textarea { font-family: Arial, sans-serif; color: #222; }
 
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
@@ -50,7 +50,7 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 a { color:#0C53A4; text-decoration: none; }
-a:visited { color: #551a8b; }
+a:visited { color: #0C53A4; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 
@@ -219,10 +219,51 @@ td { vertical-align: top; }
 
 h1 { font-size: 1.4em; }
 
-header {
-	margin-top:20px;
+#header {
+	margin-top:30px;
 	margin-bottom:20px;
-	margin-left:10px;
+	margin-left:30px;
+}
+
+#container {
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main {
+	background-color:#E9F4FF;
+	border-radius: 1em;
+	padding:15px;
+}
+
+#twitterWidget {
+	float:right;
+	
+}
+
+#intro {
+	margin-right:10px;
+	width:604px;
+	float:left;
+}
+
+#footer {
+	text-align:center;
+	width:100%;
+	padding-top:5px;
+	font-size:10px;
+	color:#333333;
+}
+
+#footer a img {
+	opacity:0.5;
+	border:0;
+	margin-top:5px;
+}
+
+#footer a:hover img{
+	opacity:1;
 }
 
 .nav {
@@ -242,7 +283,7 @@ header {
 	text-decoration: none;
 	font-weight: bold;
 	border: 0;
-	text-shadow: 0px 1px 0px 0px #000000;
+	text-shadow: 1px 1px 1px #B5B5B5;
 }
 
 .nav li a:hover {
@@ -250,37 +291,13 @@ header {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	color: #fff;
+	text-shadow: 0px 0px;
 }
 
-#container {
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
+.promote {
+	width: 33%;
+	float: left;
 }
-
-#twitterWidget {
-	float:right;
-}
-
-#intro {
-	margin-left:10px;
-	margin-right:10px;
-	width:604px;
-	float:left;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
