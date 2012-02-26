@@ -20,15 +20,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
-
-		<!-- Use the .htaccess and remove these lines to avoid edge case issues.
-		More info: h5bp.com/i/378 -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-		<title></title>
-		<meta name="description" content="">
+		<title>WIDGaT - Widget Design Authoring Toolkit</title>
+		<meta name="description" content="Widget Design Authoring Toolkit (WIDGaT) is a code free widget designer tool">
 
-		<!-- Mobile viewport optimized: h5bp.com/viewport -->
 		<meta name="viewport" content="width=device-width">
 
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
@@ -41,6 +37,8 @@
 		Modernizr enables HTML5 elements & feature detects for optimal performance.
 		Create your own custom Modernizr build: www.modernizr.com/download/ -->
 		<script src="js/libs/modernizr-2.5.3.min.js"></script>
+		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+		<script type="text/javascript">stLight.options({publisher: "ur-567ccf30-4cfe-3ecb-c251-575df372821b"}); </script>
 	</head>
 	<body>
 		<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
@@ -48,14 +46,14 @@
 		<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 		<div id="container">
 			<div id="header">
-				<a href="https://github.com/arc-teesside/WIDGaT/" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub"></a>
+				<a href="https://github.com/arc-teesside/WIDGaT/" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/30f550e0d38ceb6ef5b81500c64d970b7fb0f028/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub"></a>
 				<a href="index.php"><img src="img/WIDGaT_logo.png" alt="WIDGaT" style="width:250px" /></a>
                 <ul class="nav">
-                	<li><a href="About">About</a></li>
+                	<li><a href="index.php?p=about" <?php echo $t = ($page == "about")? "class=\"selected\"":""; ?> >About</a></li>
                     <li><a href="http://arc.tees.ac.uk/widgat-code/">Use it</a></li>
-                    <li><a href="index.php?p=guides">Guides</a></li>
+                    <li><a href="index.php?p=guides" <?php $arP = explode('/',$page); echo $t = ($arP[0] == "guides")? "class=\"selected\"":""; ?> >Guides</a></li>
                     <li><a href="http://arc.tees.ac.uk/WIDGaT/">Blog</a></li>
-                    <li><a href="Wiki">Wiki</a></li>
+                    <li><a href="index.php?p=partners">Partners</a></li>
                 </ul>
 				<div class="clearfix"></div>
 			</div>
@@ -64,7 +62,7 @@
 				<div class="clearfix"></div>
 			</div>
 			<div id="footer">Contact: Dr. Elaine Pearson - Email: <a href="mailto:E.Pearson@tees.ac.uk">E.Pearson@tees.ac.uk</a> - Tel.: +44 (0) 1642 342656&nbsp;<a href="index.php?p=admin/home">Admin</a><br/>
-				Accessibility Research Centre, School of Computing, Teesside University, Middlesbrough, Tees Valley, TS1 3BA, UK<br />
+				<a href="http://arc.tees.ac.uk" title="Accessibility Research Centre" target="_blank">Accessibility Research Centre</a>, School of Computing, Teesside University, Middlesbrough, Tees Valley, TS1 3BA, UK<br />
 				<a href="" title="" target="_blank"><img src="img/button-rss.png" alt="Image" /></a>&nbsp;
 				<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="img/cc-by-nc-sa.png" alt="Image" /></a>&nbsp;
 				<a href="http://validator.w3.org/check/referer" title="http://validator.w3.org/check/referer" target="_blank"><img src="img/button-xhtml.png" alt="Image" /></a>&nbsp;

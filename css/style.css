@@ -34,7 +34,7 @@ html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10
 
 html, button, input, select, textarea { font-family: Arial, sans-serif; color: #222; }
 
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body { margin: 0; font-size: 1em; line-height: 1.4; background: #fff url(../img/bg.gif) repeat-x fixed; }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -218,10 +218,12 @@ td { vertical-align: top; }
    ========================================================================== */
 
 h1 { font-size: 1.4em; }
+h2 { font-size: 1.2em; }
+h3 { font-size: 1em; margin-bottom:0px; }
 
 #header {
 	margin-top:30px;
-	margin-bottom:20px;
+	margin-bottom:5px;
 	margin-left:30px;
 }
 
@@ -232,7 +234,7 @@ h1 { font-size: 1.4em; }
 }
 
 #main {
-	background-color:#E9F4FF;
+	
 	border-radius: 1em;
 	padding:15px;
 }
@@ -246,6 +248,19 @@ h1 { font-size: 1.4em; }
 	margin-right:10px;
 	width:604px;
 	float:left;
+}
+
+#intro table {
+	width:100%;
+	text-align:center;
+}
+
+#intro table tr td {
+	width:33%;
+}
+
+#intro img {
+	height:55px;
 }
 
 #footer {
@@ -294,9 +309,30 @@ h1 { font-size: 1.4em; }
 	text-shadow: 0px 0px;
 }
 
+.nav li a.selected {
+	background-color: #52729C;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #fff;
+	text-shadow: 0px 0px;
+}
+
 .promote {
-	width: 33%;
+	width: 260px;
 	float: left;
+	margin-top:15px;
+}
+
+.separator {
+	width:52px;
+	float:left;
+}
+
+.guides-list {
+	margin:10px 0px 0px 15px;
+	padding-bottom:10px;
+	border-bottom: 1px solid #CCCCCC;
+	width:500px;
 }
 
 /* ==|== media queries ======================================================
