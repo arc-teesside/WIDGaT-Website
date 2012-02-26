@@ -37,6 +37,7 @@
 		Modernizr enables HTML5 elements & feature detects for optimal performance.
 		Create your own custom Modernizr build: www.modernizr.com/download/ -->
 		<script src="js/libs/modernizr-2.5.3.min.js"></script>
+		<script src="js/libs/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 		<script type="text/javascript">stLight.options({publisher: "ur-567ccf30-4cfe-3ecb-c251-575df372821b"}); </script>
 	</head>
@@ -50,9 +51,9 @@
 				<a href="index.php"><img src="img/WIDGaT_logo.png" alt="WIDGaT" style="width:250px" /></a>
                 <ul class="nav">
                 	<li><a href="index.php?p=about" <?php echo $t = ($page == "about")? "class=\"selected\"":""; ?> >About</a></li>
-                    <li><a href="http://arc.tees.ac.uk/widgat-code/">Use it</a></li>
-                    <li><a href="index.php?p=guides" <?php $arP = explode('/',$page); echo $t = ($arP[0] == "guides")? "class=\"selected\"":""; ?> >Guides</a></li>
-                    <li><a href="http://arc.tees.ac.uk/WIDGaT/">Blog</a></li>
+                    <li><a href="http://arc.tees.ac.uk/widgat-code/" target="_blank">Use it</a></li>
+                    <li><a href="index.php?p=guides" <?php $arP = explode('/',$page); echo $t = ($arP[0] == "guides")? "class=\"selected\"":""; ?> >Documentation</a></li>
+                    <li><a href="http://arc.tees.ac.uk/WIDGaT/" target="_blank">Blog</a></li>
                     <li><a href="index.php?p=partners">Partners</a></li>
                 </ul>
 				<div class="clearfix"></div>
