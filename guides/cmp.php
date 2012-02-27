@@ -36,7 +36,7 @@
 	</li>
 	<li><a href="">Javascript guidelines</a>
 		<ol>
-			<li><a href="">Component class</a></li>
+			<li><a href="">Component class STEVE</a></li>
 			<li><a href="">Handling IDs</a></li>
 			<li><a href="">Functions</a></li>
 		</ol>
