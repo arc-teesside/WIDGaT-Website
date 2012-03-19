@@ -2,7 +2,7 @@
 		<h1>WIDGaT &ndash; Widget Design Authoring Toolkit</h1>
 		<p>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>W</b>idget <b>D</b>esign <b>A</b>uthoring <b>T</b>oolkit <b>(WIDGaT)</b> is the world's first online &lsquo;<i style="color:#599C52;"><b>code-free</b></i>&rsquo; widget creation tool !
-			&nbsp;WIDGaT a <span style="color:#F8791E;font-weight:bold;">JISC</span>-funded Learning and Teaching Innovation project led by the Accessibility Research Centre at Teesside University.The WIDGaT toolkit supports the <span style="color:#C554B3;font-weight:bold;">design, development and sharing of widgets</span>, by enabling teachers and students to easily create bespoke widgets.
+			&nbsp;WIDGaT a <span style="color:#F8791E;font-weight:bold;">JISC</span>-funded Learning and Teaching Innovation project led by the Accessibility Research Centre at Teesside University.The WIDGaT toolkit supports the <span style="color:#C554B3;font-weight:bold;">design, development and sharing of widgets</span>, by enabling teachers and students to easily produce bespoke widgets.
 		</p>
 		<span class='st_facebook_hcount' displayText='Facebook'></span>
 		<span class='st_twitter_hcount' displayText='Tweet'></span>
@@ -49,15 +49,15 @@
 <div class="clearfix"></div>
 <div class="promote">
 	<h3>Code-free</h3>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel leo eros, nec condimentum arcu. Suspendisse at lacus consectetur odio cursus posuere. Phasellus nisi diam, congue non lobortis nec, porta eu quam. Aliquam malesuada viverra erat sit amet viverra. Sed a felis at mi volutpat fermentum. Nullam auctor mollis sapien ut auctor.
+	Most widget tools require skills in coding (e.g. javascript) and are only suitable for developers. WIDGaT allows teachers and students to create personalised tools to support learning and independence. Widgets are platform independent and can be added to your desktop, mobile phone or VLE.
 </div>
 <div class="separator">&nbsp;</div>
 <div class="promote">
 	<h3>Template</h3>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel leo eros, nec condimentum arcu. Suspendisse at lacus consectetur odio cursus posuere. Phasellus nisi diam, congue non lobortis nec, porta eu quam. Aliquam malesuada viverra erat sit amet viverra. Sed a felis at mi volutpat fermentum. Nullam auctor mollis sapien ut auctor.
+	WIDGaT consists of templates that can easily be edited without coding to personalise or adapt to meet the needs of an individual student or a group of students. It provides an easy way to support disabled students who may have particular requirements.
 </div>
 <div class="separator">&nbsp;</div>
 <div class="promote">
 	<h3>Share</h3>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel leo eros, nec condimentum arcu. Suspendisse at lacus consectetur odio cursus posuere. Phasellus nisi diam, congue non lobortis nec, porta eu quam. Aliquam malesuada viverra erat sit amet viverra. Sed a felis at mi volutpat fermentum. Nullam auctor mollis sapien ut auctor.
+	Once you have created your wdigets you can choose to keep them for your personal use or share them with individual students, groups or the whole educational community at the click of a button. You can allow other people to find and reuse your widgets through the ROLE store, EDUKAPP or Jorum. Or you can use your own social media applications to share a link to your widget.
 </div>
