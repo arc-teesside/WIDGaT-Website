@@ -51,9 +51,9 @@
 				<a href="index.php"><img src="img/WIDGaT_logo.png" alt="WIDGaT" style="width:250px" /></a>
                 <ul class="nav">
                 	<li><a href="index.php?p=about" <?php echo $t = ($page == "about")? "class=\"selected\"":""; ?> >About</a></li>
-                    <li><a href="http://arc.tees.ac.uk/widgat-code/" target="_blank">Use it</a></li>
+                    <li><a href="http://arc.tees.ac.uk/WIDGaT/Tool/" target="_blank" class="externallink">Use it</a></li>
                     <li><a href="index.php?p=guides" <?php $arP = explode('/',$page); echo $t = ($arP[0] == "guides")? "class=\"selected\"":""; ?> >Documentation</a></li>
-                    <li><a href="http://arc.tees.ac.uk/WIDGaT/" target="_blank">Blog</a></li>
+                    <li><a href="http://arc.tees.ac.uk/WIDGaT/Blog/" target="_blank" class="externallink">Blog</a></li>
                     <li><a href="index.php?p=partners">Partners</a></li>
                 </ul>
 				<div class="clearfix"></div>

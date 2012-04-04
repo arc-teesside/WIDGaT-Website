@@ -11,10 +11,6 @@ Everything you need to know about the user interface
 <a href="index.php?p=guides/howto">Using WIDGaT</a><br/>
 Learn how to use WIDGaT to create your personnal widget.
 </div>
-<div class="guides-list">
-<a href="index.php?p=guides/cmp">Creating custom components</a><br/>
-Components specification and guidelines
-</div>
 <h1>Sharing</h1>
 <div class="guides-list">
 <a href="index.php?p=guides/direct">Allow adaptation of your widget</a><br/>
@@ -27,4 +23,9 @@ Learn how to share your widget on our partner's widget store
 <div class="guides-list">
 <a href="index.php?p=guides/edukapp">Edukapp Widget store</a><br/>
 Edukapp is a cross-university widget store that focuses on collecting and promoting widgets for learning and teaching
+</div>
+<h1>Developers</h1>
+<div class="guides-list">
+<a href="index.php?p=guides/cmp">Creating custom components</a><br/>
+Components specification and guidelines
 </div>

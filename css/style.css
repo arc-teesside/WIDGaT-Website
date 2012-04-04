@@ -289,7 +289,7 @@ h3 { font-size: 1em; margin-bottom:0px; }
 	float: left;
 	list-style-type: none;
 	margin: 0;
-	margin-right: 2.5em;
+	margin-right: 2.2em;
 	padding-top: 0.7em;
 }
 
@@ -307,6 +307,17 @@ h3 { font-size: 1em; margin-bottom:0px; }
 	-webkit-border-radius: 5px;
 	color: #fff;
 	text-shadow: 0px 0px;
+}
+
+.nav li a.externallink {
+padding-right: 25px;
+padding-left: 25px;
+}
+
+.nav li a.externallink:hover {
+background-image: url(../img/ExternalLink.gif);
+background-position: 92% 50%;
+background-repeat: no-repeat;
 }
 
 .nav li a.selected {
