@@ -1,0 +1,39 @@
+{
+	className: "analogClock",
+	name : "Analog Clock",
+	description: "Analog looking clock timer using CSS3 for animation",
+	category: 'clock',
+	authors: [{
+		name: "Franck Perrin",
+		email: "f.perrin@tees.ac.uk",
+		link: "http://arc.tees.ac.uk",
+		organisation: "ARC Teesside University"
+	}],
+	html: "analog.html",
+	javascript: "analog.js",
+	stylesheet: "analog.css",
+	
+	attributes: [{
+		shortName: "startTime",
+		name: "Starting Time",
+		type: "Number",
+		input: true,
+		required: true
+	}],
+	
+	actions: [{
+		shortName: "launchCountdown",
+		name: "launch Countdown"
+	}, {
+		shortName: "resetClock",
+		name: "Reset clock"
+	}],
+	
+	guidances: [
+		{
+			priority: "high",
+			text: "The clock needs a starting time"
+		}
+	]
+}
+

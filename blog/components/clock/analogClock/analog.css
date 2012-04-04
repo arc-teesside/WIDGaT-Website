@@ -1,0 +1,39 @@
+
+/* analogClock CSS Document */
+
+#analogClock1-clock {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 7px 0 0 0;
+	background: url(clockface.jpg);
+	list-style: none;
+}
+
+#analogClock1-sec, #analogClock1-min, #analogClock1-hour {
+	position: absolute;
+	width: 10px;
+	height: 200px;
+	top: 0px;
+	left: 95px;
+}
+
+#analogClock1-sec {
+	background: url(sechand.png);
+	z-index: 3;
+}
+
+#analogClock1-min {
+	background: url(minhand.png);
+	z-index: 2;
+}
+
+#analogClock1-hour {
+	background: url(hourhand.png);
+	z-index: 1;
+}
+
+p {
+	text-align: center; 
+	padding: 4px 0 0 0;
+}

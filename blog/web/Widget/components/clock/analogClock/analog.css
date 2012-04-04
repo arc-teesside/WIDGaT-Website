@@ -1,0 +1,39 @@
+
+/* analogClock CSS Document */
+
+#@[id]-clock {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 7px 0 0 0;
+	background: url(http://arc.tees.ac.uk/WIDGaT/components/clock/analogClock/clockface.jpg);
+	list-style: none;
+}
+
+#@[id]-sec, #@[id]-min, #@[id]-hour {
+	position: absolute;
+	width: 10px;
+	height: 200px;
+	top: 0px;
+	left: 95px;
+}
+
+#@[id]-sec {
+	background: url(http://arc.tees.ac.uk/WIDGaT/components/clock/analogClock/sechand.png);
+	z-index: 3;
+}
+
+#@[id]-min {
+	background: url(http://arc.tees.ac.uk/WIDGaT/components/clock/analogClock/minhand.png);
+	z-index: 2;
+}
+
+#@[id]-hour {
+	background: url(http://arc.tees.ac.uk/WIDGaT/components/clock/analogClock/hourhand.png);
+	z-index: 1;
+}
+
+p {
+	text-align: center; 
+	padding: 4px 0 0 0;
+}

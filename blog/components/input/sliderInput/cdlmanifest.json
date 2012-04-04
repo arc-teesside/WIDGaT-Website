@@ -1,0 +1,43 @@
+{
+	className: "sliderInput",
+	name : "Slider",
+	description: "A slider to select a value",
+	category: 'input',
+	icon: 'http://localhost/Component/slider/icon.png',
+	authors: [{
+		name: "Franck Perrin",
+		email: "f.perrin@tees.ac.uk",
+		link: "http://arc.tees.ac.uk",
+		organization: "ARC Teesside University"
+	}],
+	
+	dependencies: [
+		{ name: "jquery-ui" }
+	]
+	
+	html: "slider.html",
+	javascript: "slider.js",
+	stylesheet: "slider.css",
+	
+	attributes: [{
+			shortName: "min",
+			name: "Minimum value",
+			type: "Number",
+			value: 0
+		}, {
+			shortName: "max",
+			name: "Maximum value",
+			type: "Number",
+			value: 100
+		}, {
+			shortName: "defaultValue",
+			name: "Default value",
+			type: "Number",
+			value: 25
+		}, {
+			shortName: "selectedValue",
+			name: "Selected value",
+			type: "Number",
+			output: true
+	}]
+}
