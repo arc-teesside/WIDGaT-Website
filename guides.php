@@ -11,6 +11,10 @@ Everything you need to know about the user interface
 <a href="index.php?p=guides/howto">Using WIDGaT</a><br/>
 Learn how to use WIDGaT to create your personnal widget.
 </div>
+<div class="guides-list">
+<a href="reference/" target="_blank" class="externallink">Component Reference List</a><br/>
+Complete components documentation. Ever wondered what a components does, you'll find all the answers here.
+</div>
 <h1>Sharing</h1>
 <div class="guides-list">
 <a href="index.php?p=guides/direct">Allow adaptation of your widget</a><br/>

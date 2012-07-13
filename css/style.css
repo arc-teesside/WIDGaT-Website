@@ -281,6 +281,13 @@ h3 { font-size: 1em; margin-bottom:0px; }
 	opacity:1;
 }
 
+.guides-list .externallink {
+	background-image: url(../img/ExternalLink.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 15px;
+}
+
 .nav {
 	margin-left:40px;
 }
