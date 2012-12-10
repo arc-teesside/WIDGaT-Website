@@ -36,7 +36,7 @@
 			$(function() {
 			
 				$( "#leftPanel" ).accordion();
-				
+				$("#rightPanel").load('home.php');
 				$("#leftPanel > div > a").click(function() {
 					$("#rightPanel").load(this.href);
 					return false;
@@ -54,6 +54,7 @@
 				<a href='components/analogclock.html'>Analog Clock</a><br />
 				<a href='components/digitalclock.html'>Digital Clock</a><br />
 				<a href='components/visualcountdown.html'>Visual Countdown</a><br />
+				<a href='symbols.php'>Symbol Set</a><br />
 			</div>
 			<h3><a href="#">Input</a></h3>
 			<div>
@@ -91,6 +92,6 @@
 				<a href='#'>Table</a><br />
 			</div>
 		</div>
-		<div id="rightPanel">Cmp Desc</div>
+		<div id="rightPanel"></div>
 	</body>
 </html>

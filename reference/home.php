@@ -1,0 +1,1 @@
+<img src="../img/WIDGaT_Logo.png" />

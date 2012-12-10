@@ -99,3 +99,22 @@ h2 img {
 	
 }
 
+#resultTbl {
+	float: left;
+	text-align:center;
+	margin:10px;
+}
+
+#resultTbl > input {
+	text-align:center;
+	border:none;
+}
+
+#resultTbl img.imgWidth {
+	width: 64px;
+}
+
+#resultTbl img.imgHeight {
+	height: 64px;
+}
+
