@@ -46,18 +46,17 @@
 		}).render().setUser('ARC_Teesside').start();
 	</script>
 </div>
-<div class="clearfix"></div>
-<div class="promote">
-	<h3>Code-free</h3>
-	Most widget tools require skills in coding (e.g. javascript) and are only suitable for developers. WIDGaT allows teachers and students to create personalised tools to support learning and independence. Widgets are platform independent and can be added to your desktop, mobile phone or VLE.
-</div>
-<div class="separator">&nbsp;</div>
-<div class="promote">
-	<h3>Template</h3>
-	WIDGaT consists of templates that can easily be edited without coding to personalise or adapt to meet the needs of an individual student or a group of students. It provides an easy way to support disabled students who may have particular requirements.
-</div>
-<div class="separator">&nbsp;</div>
-<div class="promote">
-	<h3>Share</h3>
-	Once you have created your wdigets you can choose to keep them for your personal use or share them with individual students, groups or the whole educational community at the click of a button. You can allow other people to find and reuse your widgets through the ROLE store, EDUKAPP or Jorum. Or you can use your own social media applications to share a link to your widget.
-</div>
+<div class="clearfix"></div><br />
+<table class="promote">
+	<tr>
+		<td><iframe width="450" height="294" src="http://www.youtube.com/embed/VRJSQLqMhM8" frameborder="0" allowfullscreen></iframe></td>
+		<td style="padding-left: 10px;">
+			<h3>Code-free</h3>
+			Most widget tools require skills in coding (e.g. javascript) and are only suitable for developers. WIDGaT allows teachers and students to create personalised tools to support learning and independence. Widgets are platform independent and can be added to your desktop, mobile phone or VLE.<br /><br />
+			<h3>Template</h3>
+			WIDGaT consists of templates that can easily be edited without coding to personalise or adapt to meet the needs of an individual student or a group of students. It provides an easy way to support disabled students who may have particular requirements.<br /><br />
+			<h3>Share</h3>
+			Once you have created your wdigets you can choose to keep them for your personal use or share them with individual students, groups or the whole educational community at the click of a button. You can allow other people to find and reuse your widgets through the ROLE store, EDUKAPP or Jorum. Or you can use your own social media applications to share a link to your widget.
+		</td>
+	</tr>
+</table>

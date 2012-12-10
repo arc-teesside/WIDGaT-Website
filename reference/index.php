@@ -47,14 +47,13 @@
 		</script>
 	</head>
 	<body>
-		<div class="title"><img src="../img/WIDGaT_Logo.png" alt="WIDGaT" />&nbsp;&nbsp;Component Reference List</div>
+		<div class="title"><img src="../img/WIDGaT_Logo.png" alt="WIDGaT" />&nbsp;&nbsp;<a href='#' onclick="$('#rightPanel').load('home.php');return false;">Component Reference List</a></div>
 		<div id="leftPanel">
 			<h3><a href="#">Clocks</a></h3>
 			<div>
 				<a href='components/analogclock.html'>Analog Clock</a><br />
 				<a href='components/digitalclock.html'>Digital Clock</a><br />
 				<a href='components/visualcountdown.html'>Visual Countdown</a><br />
-				<a href='symbols.php'>Symbol Set</a><br />
 			</div>
 			<h3><a href="#">Input</a></h3>
 			<div>
@@ -71,7 +70,7 @@
 			<h3><a href="#">Media</a></h3>
 			<div>
 				<a href='#'>Image</a><br />
-				<a href='#'>Symbol</a><br />
+				<a href='symbols.php'>Symbol</a><br />
 				<a href='#'>Sound</a><br />
 				<a href='#'>Video</a><br />
 				<a href='components/youtube.html'>YouTube</a><br />

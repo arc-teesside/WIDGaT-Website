@@ -218,7 +218,7 @@ td { vertical-align: top; }
    ========================================================================== */
 
 h1 { font-size: 1.4em; }
-h2 { font-size: 1.2em; }
+h2 { font-size: 1.2em; margin-bottom:0.5em;  }
 h3 { font-size: 1em; margin-bottom:0px; }
 
 #header {
@@ -336,14 +336,12 @@ background-repeat: no-repeat;
 }
 
 .promote {
-	width: 260px;
-	float: left;
-	margin-top:15px;
+	font-size: 12px;
 }
 
-.separator {
-	width:52px;
-	float:left;
+.promote h3 {
+	font-size:14px;
+	margin-top:0px;
 }
 
 .guides-list {

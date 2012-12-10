@@ -40,6 +40,16 @@ h2 img {
     box-sizing: border-box;
 }
 
+.title a {
+	color:white;
+	text-decoration:none;
+}
+
+.title a:hover {
+	color:white;
+	text-decoration:underline;
+}
+
 .title img {
 	width: 100px;
 }
@@ -117,4 +127,3 @@ h2 img {
 #resultTbl img.imgHeight {
 	height: 64px;
 }
-

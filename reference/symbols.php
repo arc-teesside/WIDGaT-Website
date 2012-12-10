@@ -1,7 +1,7 @@
 <?php
 	if(isset($_GET['q'])) {
 		if(!empty($_GET['q'])) {
-			$dir = '../../PNG_MulberryEN3v1';
+			$dir = '../../WIDEST/Media/PNG_MulberryEN3v1';
 			
 			if ($handle = opendir($dir)) {
 			
@@ -22,7 +22,7 @@
 					
 				});
 				
-				var_dump($matches);
+				//var_dump($matches);
 				
 				foreach($matches as $match) {
 					list($width, $height, $type, $attr) = getimagesize($dir.'\\'.$match);
@@ -42,7 +42,11 @@
 		}
 	} else {
 ?>
-<input type="text" id="symbol" />
+<h1 style="text-align:center;">Mulberry Symbol Set</h1>
+<div style="background:url(coloredArrow.png) no-repeat;height:141px;padding-left:48px;padding-top:35px;margin:auto;width:470px;">
+	<div style="font-size:larger">Start typing in the field below to browse the symbol set</div>
+	<div style="padding-left:90px;padding-top:46px;"><input type="text" id="symbol" style="outline: 5px auto orange; -moz-outline-radius:5px; line-height:22px;font-size:20px;" /><span style="color:grey;line-height:22px;font-style:italic;">&nbsp;(3 letters min)</span></div>
+</div>
 <div id="results"></div>
 <script type="text/javascript">
 	$('#symbol').keyup(function() {

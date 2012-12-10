@@ -1,6 +1,6 @@
 <div style="float:right;">
 	<h2>Video walkthrough</h2>
-	<iframe width="360" height="235" src="http://www.youtube.com/embed/JzzVBrAy8Cw" frameborder="0" allowfullscreen></iframe>
+	<iframe width="360" height="235" src="http://www.youtube.com/embed/VRJSQLqMhM8" frameborder="0" allowfullscreen></iframe>
 </div>
 <h1>Getting Started</h1>
 <div class="guides-list">
