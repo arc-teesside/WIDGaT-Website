@@ -24,12 +24,12 @@
 		<title>WIDGaT - Components Reference List</title>
 		<meta name="description" content="Components Reference List for Widget Design Authoring Toolkit (WIDGaT)">
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/smoothness/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/smoothness/jquery-ui.css" />
 		
 		<link rel="stylesheet" href="style.css">
 		
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 
 		<script type="text/javascript">
 		

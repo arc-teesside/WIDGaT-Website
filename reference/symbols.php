@@ -49,7 +49,7 @@
 </div>
 <div id="results"></div>
 <script type="text/javascript">
-	$('#symbol').keyup(function() {
+	$('#symbol').keyup(function(event) {
 		 var needle = $(event.target).val();
 		 
 		 if(needle.length > 2) {
