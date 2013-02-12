@@ -36,7 +36,7 @@
 			$(function() {
 			
 				$( "#leftPanel" ).accordion();
-				$("#rightPanel").load('home.php');
+				$("#rightPanel").load('<?php echo $page; ?>.php');
 				$("#leftPanel > div > a").click(function() {
 					$("#rightPanel").load(this.href);
 					return false;

@@ -52,7 +52,7 @@
                 <ul class="nav">
                 	<li><a href="index.php?p=about" <?php echo $t = ($page == "about")? "class=\"selected\"":""; ?> >About</a></li>
                     <li><a href="http://arc.tees.ac.uk/WIDGaT/Tool/" target="_blank" class="externallink">Use it</a></li>
-                    <li><a href="index.php?p=guides" <?php $arP = explode('/',$page); echo $t = ($arP[0] == "guides")? "class=\"selected\"":""; ?> >Documentation</a></li>
+                    <li><a href="index.php?p=guides" <?php $arP = explode('/',$page); echo $t = ($arP[0] == "guides")? "class=\"selected\"":""; ?> >User Guides</a></li>
                     <li><a href="index.php?p=wip">WiP</a></li>
 					<li><a href="http://arc.tees.ac.uk/WIDGaT/Blog/" target="_blank" class="externallink">Blog</a></li>
                     <li><a href="index.php?p=partners">Partners</a></li>
