@@ -17,7 +17,7 @@
 		</table>
 </div>
 <div id="twitterWidget">
-	<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+	<!--<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 	<script>
 		new TWTR.Widget({
 			version: 2,
@@ -44,7 +44,10 @@
 				behavior: 'all'
 			}
 		}).render().setUser('ARC_Teesside').start();
-	</script>
+	</script>-->
+	<a class="twitter-timeline" data-chrome="nofooter" href="https://twitter.com/ARC_Teesside" height="320" width="250" data-widget-id="361867605633544193">Tweets by @ARC_Teesside</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		
 </div>
 <div class="clearfix"></div><br />
 <table class="promote">

@@ -4,6 +4,16 @@
 </div>
 <h1>Getting Started</h1>
 <div class="guides-list">
+	<a href="#">WIDGaT User Guides</a>
+	<ol>
+		<li><a href="http://vle.jisctechdis.ac.uk/xerte/play_282" target="_blank">Introduction to WIDGaT</a></li>
+		<li><a href="http://vle.jisctechdis.ac.uk/xerte/play_283" target="_blank">WIDGaT: The Background</a></li>
+		<li><a href="http://vle.jisctechdis.ac.uk/xerte/play_289" target="_blank">Creating a Widget: Preparation Stage</a></li>
+		<li><a href="http://vle.jisctechdis.ac.uk/xerte/play_315" target="_blank">Creating a Widget: Development Stage</a></li>
+		<li><a href="http://vle.jisctechdis.ac.uk/xerte/play_323" target="_blank">Using and Sharing your Widget</a></li>
+	</ol>
+</div>
+<div class="guides-list">
 <a href="index.php?p=guides/ui">WIDGaT UI</a><br/>
 Everything you need to know about the user interface
 </div>
